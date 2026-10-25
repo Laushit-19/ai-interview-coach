@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "category": "Python Basics",
+    "difficulty": "intermediate",
+    "question": "What is the difference between a list and a tuple in Python?",
+    "model_answer": "A list is mutable, meaning its elements can be changed after creation, while a tuple is immutable and cannot be modified once created. Lists use square brackets and tuples use parentheses. Tuples are generally faster and used for fixed data.",
+    "keywords": ["mutable", "immutable", "list", "tuple", "brackets", "parentheses", "fixed"]
+  },
+  {
+    "id": 2,
+    "category": "Python Basics",
+    "difficulty": "intermediate",
+    "question": "What is the difference between deep copy and shallow copy?",
+    "model_answer": "A shallow copy creates a new object but inserts references to the same nested objects, so changes to nested elements affect both copies. A deep copy recursively copies all nested objects, creating fully independent copies with no shared references.",
+    "keywords": ["shallow", "deep", "reference", "nested", "independent", "copy"]
+  },
+  {
+    "id": 3,
+    "category": "Python Basics",
+    "difficulty": "advanced",
+    "question": "What are Python decorators and why are they used?",
+    "model_answer": "A decorator is a function that takes another function as input and extends or modifies its behavior without changing its source code. Decorators are used for logging, access control, memoization, and timing, using the @decorator syntax.",
+    "keywords": ["decorator", "function", "wrap", "behavior", "syntax", "modify"]
+  },
+  {
+    "id": 4,
+    "category": "Python Basics",
+    "difficulty": "advanced",
+    "question": "What is the Global Interpreter Lock (GIL) in Python?",
+    "model_answer": "The GIL is a mutex that allows only one thread to execute Python bytecode at a time in a single process, even on multi-core systems. This means CPU-bound multithreaded programs don't get true parallelism, though I/O-bound tasks can still benefit from threading.",
+    "keywords": ["gil", "mutex", "thread", "bytecode", "parallelism", "multicore"]
+  },
+  {
+    "id": 19,
+    "category": "Python Basics",
+    "difficulty": "basic",
+    "question": "What is a variable in Python?",
+    "model_answer": "A variable is a name that refers to a value stored in memory. It acts as a label you can use to store, access, and update data as a program runs, without needing to know the exact memory address.",
+    "keywords": ["variable", "store", "value", "name", "memory"]
+  },
+  {
+    "id": 5,
+    "category": "OOP",
+    "difficulty": "basic",
+    "question": "What is Object-Oriented Programming?",
+    "model_answer": "Object-Oriented Programming is a programming paradigm based on the concept of objects, which contain data in the form of attributes and code in the form of methods. Its main principles are encapsulation, inheritance, polymorphism, and abstraction.",
+    "keywords": ["objects", "encapsulation", "inheritance", "polymorphism", "abstraction", "class"]
+  },
+  {
+    "id": 6,
+    "category": "OOP",
+    "difficulty": "intermediate",
+    "question": "What is the difference between method overloading and method overriding?",
+    "model_answer": "Method overloading is defining multiple methods with the same name but different parameters within the same class, allowing different ways to call it. Method overriding is redefining a method in a subclass that already exists in the parent class, changing its behavior for the child class.",
+    "keywords": ["overloading", "overriding", "subclass", "parent", "parameters", "same name"]
+  },
+  {
+    "id": 7,
+    "category": "OOP",
+    "difficulty": "intermediate",
+    "question": "Explain the concept of encapsulation with an example.",
+    "model_answer": "Encapsulation means bundling data and the methods that operate on that data into a single unit, and restricting direct access to some of an object's components. For example, a class can have private variables accessed only through getter and setter methods, protecting internal state from unintended changes.",
+    "keywords": ["encapsulation", "bundling", "private", "getter", "setter", "restrict", "access"]
+  },
+  {
+    "id": 8,
+    "category": "OOP",
+    "difficulty": "intermediate",
+    "question": "What is polymorphism and why is it useful?",
+    "model_answer": "Polymorphism means the same interface or method name can behave differently depending on the object calling it. It is useful because it allows writing more general and flexible code, where a single function can work with objects of different classes as long as they implement a common interface.",
+    "keywords": ["polymorphism", "interface", "flexible", "different classes", "behave differently"]
+  },
+  {
+    "id": 20,
+    "category": "OOP",
+    "difficulty": "basic",
+    "question": "What is a class in Object-Oriented Programming?",
+    "model_answer": "A class is a blueprint or template for creating objects. It defines the attributes and methods that its objects will have, but does not itself hold real data until an object is created from it.",
+    "keywords": ["class", "blueprint", "template", "object", "attributes", "methods"]
+  },
+  {
+    "id": 9,
+    "category": "DSA",
+    "difficulty": "intermediate",
+    "question": "What is the time complexity of binary search and why?",
+    "model_answer": "Binary search runs in O(log n) time because it repeatedly divides the search space in half. On each step, half of the remaining elements are eliminated, so the number of steps needed grows logarithmically with the size of the input.",
+    "keywords": ["binary search", "log n", "divide", "half", "logarithmic", "search space"]
+  },
+  {
+    "id": 10,
+    "category": "DSA",
+    "difficulty": "basic",
+    "question": "What is the difference between a stack and a queue?",
+    "model_answer": "A stack follows Last In First Out order, meaning the most recently added element is removed first, like a pile of plates. A queue follows First In First Out order, meaning the first element added is the first one removed, like a line of people waiting.",
+    "keywords": ["stack", "queue", "lifo", "fifo", "last in first out", "first in first out"]
+  },
+  {
+    "id": 11,
+    "category": "DSA",
+    "difficulty": "intermediate",
+    "question": "How does a hash table achieve fast lookups?",
+    "model_answer": "A hash table uses a hash function to convert a key into an index in an underlying array, allowing direct access to the value in constant average time. Collisions, where two keys map to the same index, are handled using techniques like chaining or open addressing.",
+    "keywords": ["hash function", "index", "constant time", "collision", "chaining", "array"]
+  },
+  {
+    "id": 12,
+    "category": "DSA",
+    "difficulty": "basic",
+    "question": "What is recursion and what is a base case?",
+    "model_answer": "Recursion is a technique where a function calls itself to solve smaller instances of the same problem. A base case is the condition that stops the recursive calls, preventing infinite recursion and ensuring the function eventually returns a result.",
+    "keywords": ["recursion", "function calls itself", "base case", "stop", "infinite"]
+  },
+  {
+    "id": 21,
+    "category": "DSA",
+    "difficulty": "basic",
+    "question": "What is an array?",
+    "model_answer": "An array is a collection of elements stored in contiguous memory locations, each accessible using an index. Arrays allow fast access to any element but usually have a fixed size once created.",
+    "keywords": ["array", "collection", "elements", "index", "contiguous", "fixed size"]
+  },
+  {
+    "id": 13,
+    "category": "HR Behavioral",
+    "difficulty": "basic",
+    "question": "Why do you want to work at our company?",
+    "model_answer": "I want to work here because the company values innovation and growth, and I believe my skills in problem solving and teamwork align well with your goals. I am excited about contributing to meaningful projects and growing professionally.",
+    "keywords": ["skills", "teamwork", "growth", "goals", "contribute", "innovation"]
+  },
+  {
+    "id": 14,
+    "category": "HR Behavioral",
+    "difficulty": "intermediate",
+    "question": "Tell me about a time you faced a conflict in a team and how you resolved it.",
+    "model_answer": "I once had a disagreement with a teammate about the approach to a project. I addressed it by calmly discussing our concerns, actively listening to their perspective, and we agreed on a compromise that combined both ideas, which improved the final outcome and our working relationship.",
+    "keywords": ["conflict", "disagreement", "listening", "compromise", "communication", "resolved"]
+  },
+  {
+    "id": 15,
+    "category": "HR Behavioral",
+    "difficulty": "basic",
+    "question": "What is your greatest weakness and how are you working on it?",
+    "model_answer": "One area I am improving is public speaking, since I used to feel nervous presenting to large groups. I have been actively working on it by volunteering for presentations and taking a communication course, and I have seen noticeable improvement in my confidence.",
+    "keywords": ["weakness", "improving", "confidence", "practice", "working on", "growth"]
+  },
+  {
+    "id": 16,
+    "category": "HR Behavioral",
+    "difficulty": "basic",
+    "question": "Where do you see yourself in five years?",
+    "model_answer": "In five years, I see myself having grown into a more senior technical role, having taken on greater responsibility and leadership, while continuously learning new skills that align with the company's evolving goals.",
+    "keywords": ["five years", "growth", "responsibility", "leadership", "learning", "goals"]
+  },
+  {
+    "id": 22,
+    "category": "HR Behavioral",
+    "difficulty": "basic",
+    "question": "Tell me about yourself.",
+    "model_answer": "I would share a brief summary of my educational background, relevant skills, and experience, followed by what interests me about this role and how my strengths align with what the company is looking for.",
+    "keywords": ["background", "skills", "experience", "interest", "strengths"]
+  },
+  {
+    "id": 17,
+    "category": "Communication",
+    "difficulty": "intermediate",
+    "question": "How do you explain a technical concept to a non-technical audience?",
+    "model_answer": "I try to avoid jargon and use simple analogies that relate to everyday experiences. I focus on the outcome and impact rather than implementation details, and I check for understanding by asking questions and encouraging them to ask their own.",
+    "keywords": ["analogy", "jargon", "simple", "outcome", "understanding", "questions"]
+  },
+  {
+    "id": 18,
+    "category": "Communication",
+    "difficulty": "intermediate",
+    "question": "How do you handle receiving critical feedback?",
+    "model_answer": "I try to listen without becoming defensive, ask clarifying questions to fully understand the feedback, and reflect on how I can use it to improve. I see constructive criticism as an opportunity for growth rather than a personal attack.",
+    "keywords": ["listen", "defensive", "clarify", "reflect", "improve", "growth", "constructive"]
+  },
+  {
+    "id": 23,
+    "category": "Communication",
+    "difficulty": "basic",
+    "question": "How do you handle a misunderstanding during a conversation?",
+    "model_answer": "I try to pause and clarify what was meant rather than assuming, ask the other person to restate their point if needed, and rephrase my own point in a different way until we both understand each other clearly.",
+    "keywords": ["clarify", "listen", "understand", "rephrase", "assume"]
+  }
+]
